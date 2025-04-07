@@ -103,3 +103,7 @@ def delete_pessoa(request, pk):
 
     pessoa.delete()
     return Response({"Mensagem: ": "Pessoa deletada com sucesso!"}, status=status.HTTP_204_NO_CONTENT)
+
+@api_view(['GET'])
+def teste(request):
+    return Response({"message": "Conexão funcionando!"}, status=status.HTTP_200_OK)
