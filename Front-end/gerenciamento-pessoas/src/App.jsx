@@ -5,9 +5,9 @@ function App() {
   const [mensagem, setMensagem] = useState('');
 
   useEffect(() => {
-    axios.get('http://localhost:8000/teste')
+    axios.get("http://localhost:8000/teste/", { withCredentials: true })
       .then(response => setMensagem(response.data.message))
-      .catch(error => console.error('Erro na requisição:', error));
+      .catch(error => console.error("Erro na requisição:", error));
   }, []);
 
   return (
