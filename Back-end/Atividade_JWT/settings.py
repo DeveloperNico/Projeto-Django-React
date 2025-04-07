@@ -70,7 +70,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # Ajuste se necessário
+    "http://localhost:5173",  # Ajuste se necessário
 ]
 
 ROOT_URLCONF = 'Atividade_JWT.urls'
