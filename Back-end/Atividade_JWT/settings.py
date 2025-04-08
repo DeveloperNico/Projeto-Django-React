@@ -66,7 +66,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",  # URL do seu front-end React
+    "http://localhost:5174",  # URL do seu front-end React
 ]
 
 CORS_ALLOW_CREDENTIALS = True  # Permite credenciais como cookies e headers de autenticação
